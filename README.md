@@ -29,7 +29,7 @@ venv\Scripts\activate     # Windows
 Install dependencies:
 pip install -r requirements.txt
 
-## ⚙️ Configuration
+## ⚙️ Configuration 
 
 Set up IBM Machine Learning credentials by creating a .env file in the project directory:
 IBM_API_KEY=your_api_key
@@ -48,3 +48,6 @@ Start the Backend
 
 Run the application using your Python version and script name. Replace python3.11 with your installed Python version and qna.py with your main application script:
 python3.11 qna.py
+
+docker build -t ai-career-coach .
+docker run -p 8000:8000 ai-career-coach
