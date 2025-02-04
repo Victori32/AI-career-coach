@@ -29,7 +29,7 @@ venv\Scripts\activate     # Windows
 Install dependencies:
 pip install -r requirements.txt
 
-## ⚙️ Configuration 
+⚙️ Configuration 
 
 Set up IBM Machine Learning credentials by creating a .env file in the project directory:
 IBM_API_KEY=your_api_key
@@ -42,7 +42,7 @@ import os
 load_dotenv()
 IBM_API_KEY = os.getenv("IBM_API_KEY")
 
-## 🚀 Usage
+🚀 Usage
 
 Start the Backend
 
