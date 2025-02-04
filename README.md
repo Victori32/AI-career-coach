@@ -1,18 +1,26 @@
 # 🤖 AI Career Coach  
+# 🤖 AI Career Coach  
 
-An AI-powered career coaching assistant designed to provide personalized career guidance, cover letter reviews, resume updates, and instant Q&A assistance. Built with IBM Machine Learning and Gradio, this tool offers an interactive and accessible career development experience.
+An AI-powered career coaching assistant designed to provide personalized career guidance, cover letter reviews, resume updates, and instant Q&A assistance. Built with IBM Machine Learning and Gradio, this tool offers an interactive and accessible career development experience.  
 
-🚀 Features
-	•	📌 Career Guidance – AI-driven insights tailored to user skills, experience, and goals.
-	•	📄 Cover Letter Review – AI-powered feedback to refine and improve cover letters.
-	•	📝 Updated Resume – Helps users enhance and optimize resumes for job applications.
-	•	❓ Q&A Assistance – Instant answers to career-related questions.
+## 🚀 Features  
+- 📌 **Career Guidance** – AI-driven insights tailored to user skills, experience, and goals.  
+- 📄 **Cover Letter Review** – AI-powered feedback to refine and improve cover letters.  
+- 📝 **Resume Optimization** – Helps users enhance and optimize resumes for job applications.  
+- ❓ **Q&A Assistance** – Instant answers to career-related questions.  
 
-🛠️ Tech Stack
-	•	AI & Machine Learning: IBM Machine Learning
-	•	Interface: Gradio for an interactive UI
-	•	Backend: Python (Flask/FastAPI)
-	•	Database: Cloud-based storage (IBM Cloud)
+## 🛠️ Tech Stack  
+- **AI & Machine Learning:** IBM Machine Learning  
+- **Interface:** Gradio for an interactive UI  
+- **Backend:** Python (Flask/FastAPI)  
+- **Database:** Cloud-based storage (IBM Cloud)  
+
+## 📦 Installation  
+
+Clone the repository:  
+```sh
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
 
 ⚙️ Configuration 
 
@@ -33,6 +41,8 @@ Start the Backend
 
 Run the application using your Python version and script name. Replace python3.11 with your installed Python version and qna.py with your main application script:
 python3.11 qna.py
+
+🐳 Deployment
 
 docker build -t ai-career-coach .
 docker run -p 8000:8000 ai-career-coach
