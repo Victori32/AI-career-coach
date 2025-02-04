@@ -22,6 +22,14 @@ Clone the repository:
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
 
+Create a virtual environment (optional but recommended):
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate     # Windows
+
+Install dependencies:
+pip install
+
 ⚙️ Configuration 
 
 Set up IBM Machine Learning credentials by creating a .env file in the project directory:
