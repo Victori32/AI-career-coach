@@ -1,4 +1,4 @@
-🤖 AI Career Coach
+# 🤖 AI Career Coach
 
 An AI-powered career coaching assistant designed to provide personalized career guidance, cover letter reviews, resume updates, and instant Q&A assistance. Built with IBM Machine Learning and Gradio, this tool offers an interactive and accessible career development experience.
 
